@@ -113,6 +113,7 @@ body {
     transition: right 0.5s ease;
     z-index: 1000;
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .tytul {
@@ -126,6 +127,7 @@ body {
 
 .f_content {
     padding: 20px;
+    min-height: 170vh
 }
 
 .close_frame {
