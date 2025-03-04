@@ -316,6 +316,14 @@ closeButtons.forEach(button => {
 });
 
 const gridItems = document.querySelectorAll('.grid_gowno > div');
+
+document.addEventListener('DOMContentLoaded', function () {
+    const slideInFrame = document.querySelector('.slide-in-frame');
+
+    slideInFrame.addEventListener('touchmove', function (e) {
+        e.preventDefault();
+    }, { passive: false });
+});
     </script>
 </body>
 </html>
